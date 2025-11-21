@@ -26,5 +26,6 @@ class FIO
     public void GetFIO()
     {
         Console.WriteLine($"{SurName} {FirstName.Substring(0, 1)}. {LastName.Substring(0, 1)}.");
+        Console.WriteLine();
     }
 }
